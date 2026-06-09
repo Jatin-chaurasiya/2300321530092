@@ -1,0 +1,11 @@
+{
+  "name": "notification_app_be",
+  "version": "1.0.0",
+  "main": "stage1.js",
+  "scripts": {
+    "start": "node stage1.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
