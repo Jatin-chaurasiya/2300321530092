@@ -51,6 +51,8 @@ For notifications of the same type, the most recent notification is displayed fi
 ![Output](ScreenShot/Register.png)
 ## Auth 
 ![Output](ScreenShot/Auth.png)
+##Api
+![Output](ScreenShot/AllApi.png)
 
 ## Setup
 
