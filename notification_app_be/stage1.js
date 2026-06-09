@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 import { Log } from "../logging_middleware/logger.js";
 
 dotenv.config();
-const TOKEN = process.env.access_token;
+const TOKEN = process.env.VITE_ACCESS_TOKEN;
 
 const PRIORITY = {
   Placement: 3,
