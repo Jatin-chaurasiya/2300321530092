@@ -1,17 +1,32 @@
-import Button from "@mui/material/Button";
-import { Log } from "../../logging_middleware/logger";
-import { useEffect } from "react";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+
+import Navbar from "./component/Navbar";
+
+import AllNotifications from "./pages/AllNotifications";
+import PriorityNotifications from "./pages/PriorityNotifications";
 
 function App() {
-  useEffect(() => {
-    Log(
-      "frontend",
-      "info",
-      "component",
-      "application started"
-    );
-  }, []);
-    return <h1>Notification App Frontend</h1>;
+  return (
+    <BrowserRouter>
+      <Navbar />
+
+      <Routes>
+        <Route
+          path="/"
+          element={<AllNotifications />}
+        />
+
+        <Route
+          path="/priority"
+          element={<PriorityNotifications />}
+        />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
