@@ -47,8 +47,10 @@ For notifications of the same type, the most recent notification is displayed fi
 ![Priority Notifications](ScreenShot/prioity.png)
 
 ### PostMan
-
+## Register
 ![Output](ScreenShot/Register.png)
+## Auth 
+![Output](ScreenShot/Auth.png)
 
 ## Setup
 
